@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Stapel</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Sun, 22 Nov 2026 19:57:01 +0100</pubDate>
+            <link>https://tinosrn.github.io/stapel/</link>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Stapel 0.1.0
+
+Erste Version.
+
+- Dateien mit ⌘-Klick im Finder sammeln und per Drag & Drop in jedes Programm ziehen
+- Gesammelte Dateien zu einem PDF zusammenführen
+- Timer in der Menüleiste mit Mitteilung
+- Automatische Updates
+]]></description>
+            <enclosure url="https://github.com/tinosrn/stapel/releases/download/v0.1.0/Stapel-0.1.0.dmg" length="2300756" type="application/octet-stream" sparkle:edSignature="b90jVOlBi3qpNJ1DLTvYIrFtRlc90HlgqqbBp7geBhmON+JXqgubvfsiOufpnM8VNZPKx0rhu8DUkX/cb9I5AA=="/>
+        </item>
+    </channel>
+</rss>
