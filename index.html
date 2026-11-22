@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Stapel – Dateien sammeln für macOS</title>
+  <title>Slipstream – Bleib im Fluss.</title>
   <meta name="description" content="Dateien mit ⌘-Klick sammeln, in jedes Programm ziehen oder zu einem PDF zusammenführen – mit Timer in der Menüleiste.">
   <link rel="icon" type="image/png" href="icon.png">
   <link rel="stylesheet" href="style.css">
@@ -12,43 +12,44 @@
 <main>
   <header class="hero">
     <img class="icon" src="icon.png" width="96" height="96" alt="">
-    <h1>Stapel</h1>
+    <h1>Slipstream</h1>
+    <p class="slogan">Bleib im Fluss.</p>
     <p class="tagline">Dateien mit ⌘-Klick sammeln, in jedes Programm ziehen oder zu einem PDF zusammenführen – mit Timer in der Menüleiste.</p>
 
-    <a class="download" href="https://github.com/tinosrn/stapel/releases/latest/download/Stapel.dmg">Für macOS laden</a>
-    <p class="meta"><span>Version 0.1.0</span><span>2,3 MB</span><span>macOS 14 oder neuer</span></p>
+    <a class="download" href="https://github.com/tinosrn/slipstream/releases/latest/download/Slipstream.dmg">Für macOS laden</a>
+    <p class="meta"><span>Version 0.2.0</span><span>2,8 MB</span><span>macOS 14 oder neuer</span></p>
     <details class="checksum">
       <summary>SHA-256-Prüfsumme</summary>
-      <code id="sha">b6406488c90d0cd1b41ce5f82d745b7b5ccebba495a0bee3e72243818d524f14</code>
+      <code id="sha">f69dd4896c195092d2c702d2462cc6451f2c885b5bcd8aec5381420a46dcae72</code>
       <p><button class="copy" type="button" data-copy="sha">Kopieren</button></p>
-      <p>Zum Vergleichen im Terminal: <code>shasum -a 256 ~/Downloads/Stapel.dmg</code></p>
+      <p>Zum Vergleichen im Terminal: <code>shasum -a 256 ~/Downloads/Slipstream.dmg</code></p>
     </details>
   </header>
 
   <section id="installation" aria-labelledby="h-install">
     <h2 id="h-install">Installation</h2>
-    <p>Stapel ist (noch) nicht von Apple notarisiert. Deshalb fragt macOS beim ersten Öffnen einmal nach, ob du der App vertraust. Das dauert etwa eine Minute:</p>
+    <p>Slipstream ist (noch) nicht von Apple notarisiert. Deshalb fragt macOS beim ersten Öffnen einmal nach, ob du der App vertraust. Das dauert etwa eine Minute:</p>
     <ol class="steps">
       <li class="card">
         <h3>DMG öffnen</h3>
-        <p>Öffne die geladene Datei <code>Stapel.dmg</code> und ziehe Stapel in den Ordner <strong>Programme</strong>.</p>
-        <div class="placeholder small" role="img" aria-label="Platzhalter für Screenshot">Screenshot: DMG-Fenster mit Stapel und Programme-Ordner</div>
+        <p>Öffne die geladene Datei <code>Slipstream.dmg</code> und ziehe Slipstream in den Ordner <strong>Programme</strong>.</p>
+        <div class="placeholder small" role="img" aria-label="Platzhalter für Screenshot">Screenshot: DMG-Fenster mit Slipstream und Programme-Ordner</div>
       </li>
       <li class="card">
-        <h3>Stapel öffnen</h3>
-        <p>Öffne Stapel aus dem Programme-Ordner. macOS meldet, dass es die App nicht überprüfen kann. Klicke auf <strong>„Fertig“</strong> – <em>nicht</em> auf „In den Papierkorb legen“.</p>
-        <div class="placeholder small" role="img" aria-label="Platzhalter für Screenshot">Screenshot: Hinweis „Stapel“ kann nicht geöffnet werden</div>
+        <h3>Slipstream öffnen</h3>
+        <p>Öffne Slipstream aus dem Programme-Ordner. macOS meldet, dass es die App nicht überprüfen kann. Klicke auf <strong>„Fertig“</strong> – <em>nicht</em> auf „In den Papierkorb legen“.</p>
+        <div class="placeholder small" role="img" aria-label="Platzhalter für Screenshot">Screenshot: Hinweis „Slipstream“ kann nicht geöffnet werden</div>
       </li>
       <li class="card">
         <h3>In den Systemeinstellungen freigeben</h3>
-        <p>Öffne <strong>Systemeinstellungen → Datenschutz &amp; Sicherheit</strong> und scrolle ganz nach unten. Klicke bei Stapel auf <strong>„Dennoch öffnen“</strong>, bestätige mit deinem Passwort und klicke dann auf <strong>„Öffnen“</strong>.</p>
+        <p>Öffne <strong>Systemeinstellungen → Datenschutz &amp; Sicherheit</strong> und scrolle ganz nach unten. Klicke bei Slipstream auf <strong>„Dennoch öffnen“</strong>, bestätige mit deinem Passwort und klicke dann auf <strong>„Öffnen“</strong>.</p>
         <p>Das ist nur beim ersten Mal nötig.</p>
         <div class="placeholder small" role="img" aria-label="Platzhalter für Screenshot">Screenshot: Datenschutz &amp; Sicherheit mit „Dennoch öffnen“</div>
       </li>
       <li class="card">
         <h3>Berechtigungen erlauben</h3>
         <p>Im Einrichtungsfenster erlaubst du <strong>Bedienungshilfen</strong>, den <strong>Finder-Zugriff</strong> und optional <strong>Mitteilungen</strong> (für den Timer).</p>
-        <div class="placeholder small" role="img" aria-label="Platzhalter für Screenshot">Screenshot: Einrichtungsfenster von Stapel</div>
+        <div class="placeholder small" role="img" aria-label="Platzhalter für Screenshot">Screenshot: Einrichtungsfenster von Slipstream</div>
       </li>
     </ol>
     <div class="note">
@@ -83,35 +84,35 @@
     <h2 id="h-faq">Fragen</h2>
     <details>
       <summary>Warum warnt macOS beim ersten Öffnen?</summary>
-      <p>Stapel ist nicht von Apple notarisiert. Dafür ist eine kostenpflichtige Mitgliedschaft im Apple Developer Program nötig, die es für Stapel (noch) nicht gibt. Die Warnung heißt also nicht, dass etwas mit der App nicht stimmt – nur, dass Apple sie nicht geprüft hat.</p>
-      <p>Stapel arbeitet ausschließlich lokal auf deinem Mac. Gesendet wird nur die tägliche Abfrage, ob es ein Update gibt. Mit der SHA-256-Prüfsumme oben kannst du kontrollieren, dass dein Download unverändert ist.</p>
+      <p>Slipstream ist nicht von Apple notarisiert. Dafür ist eine kostenpflichtige Mitgliedschaft im Apple Developer Program nötig, die es für Slipstream (noch) nicht gibt. Die Warnung heißt also nicht, dass etwas mit der App nicht stimmt – nur, dass Apple sie nicht geprüft hat.</p>
+      <p>Slipstream arbeitet ausschließlich lokal auf deinem Mac. Gesendet wird nur die tägliche Abfrage, ob es ein Update gibt. Mit der SHA-256-Prüfsumme oben kannst du kontrollieren, dass dein Download unverändert ist.</p>
     </details>
     <details>
-      <summary>Warum braucht Stapel Bedienungshilfen?</summary>
-      <p>Stapel muss bemerken, wann du ⌘ gedrückt hältst und wann du im Finder klickst – auch wenn eine andere App vorne ist. Das erlaubt macOS nur mit der Berechtigung „Bedienungshilfen“. Stapel liest dabei nur die ⌘-Taste und Mausklicks, keine Tastatureingaben.</p>
+      <summary>Warum braucht Slipstream Bedienungshilfen?</summary>
+      <p>Slipstream muss bemerken, wann du ⌘ gedrückt hältst und wann du im Finder klickst – auch wenn eine andere App vorne ist. Das erlaubt macOS nur mit der Berechtigung „Bedienungshilfen“. Slipstream liest dabei nur die ⌘-Taste und Mausklicks, keine Tastatureingaben.</p>
       <p>Der Finder-Zugriff ist nötig, um zu erfahren, welche Dateien du ausgewählt hast.</p>
     </details>
     <details>
-      <summary>Wie deinstalliere ich Stapel?</summary>
+      <summary>Wie deinstalliere ich Slipstream?</summary>
       <ul>
-        <li>Stapel über das Menüleisten-Symbol (Rechtsklick) → „Beenden“ schließen.</li>
-        <li>Stapel aus dem Programme-Ordner in den Papierkorb ziehen.</li>
-        <li>Optional: in Systemeinstellungen → Datenschutz &amp; Sicherheit → Bedienungshilfen den Eintrag „Stapel“ mit „–“ entfernen.</li>
-        <li>Optional die Einstellungen löschen: <code>defaults delete de.sieren.stapel</code> im Terminal.</li>
+        <li>Slipstream über das Menüleisten-Symbol (Rechtsklick) → „Beenden“ schließen.</li>
+        <li>Slipstream aus dem Programme-Ordner in den Papierkorb ziehen.</li>
+        <li>Optional: in Systemeinstellungen → Datenschutz &amp; Sicherheit → Bedienungshilfen den Eintrag „Slipstream“ mit „–“ entfernen.</li>
+        <li>Optional die Einstellungen löschen: <code>defaults delete de.sieren.slipstream</code> im Terminal.</li>
       </ul>
     </details>
     <details>
       <summary>Bleiben meine Berechtigungen bei Updates erhalten?</summary>
-      <p>Ja. Jedes Update ist mit demselben Zertifikat signiert, daran erkennt macOS Stapel wieder. Bedienungshilfen und Finder-Zugriff musst du nur einmal erlauben. Updates installiert Stapel selbst, sobald du zustimmst.</p>
+      <p>Ja. Jedes Update ist mit demselben Zertifikat signiert, daran erkennt macOS Slipstream wieder. Bedienungshilfen und Finder-Zugriff musst du nur einmal erlauben. Updates installiert Slipstream selbst, sobald du zustimmst.</p>
     </details>
   </section>
 </main>
 
 <footer class="site-footer">
-  <span>© Stapel</span>
+  <span>© Slipstream</span>
   <a href="impressum.html">Impressum</a>
   <a href="datenschutz.html">Datenschutz</a>
-  <a href="https://github.com/tinosrn/stapel/releases">Alle Versionen</a>
+  <a href="https://github.com/tinosrn/slipstream/releases">Alle Versionen</a>
 </footer>
 
 <script>

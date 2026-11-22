@@ -48,12 +48,13 @@ a { color: var(--accent); }
 a:hover { color: var(--accent-hover); }
 
 h1, h2, h3 { line-height: 1.2; letter-spacing: -0.01em; }
-h1 { font-size: clamp(2.2rem, 7vw, 3.2rem); margin: 0 0 0.6rem; }
+h1 { font-size: clamp(2.2rem, 7vw, 3.2rem); margin: 0 0 0.2rem; }
 h2 { font-size: 1.55rem; margin: 3rem 0 1rem; }
 h3 { font-size: 1.1rem; margin: 0 0 0.3rem; }
 
 .hero { text-align: center; padding: 3.5rem 0 1rem; }
 .hero .icon { width: 96px; height: 96px; border-radius: 22px; }
+.slogan { font-size: 1.45rem; font-weight: 600; margin: 0 0 0.6rem; }
 .tagline { font-size: 1.2rem; color: var(--muted); max-width: 34rem; margin: 0 auto 2rem; }
 
 .download {
